@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Meta -->
+		<meta name="description" content="Admin Templates & Dashboard UI Kits">
+		<meta name="author" content="Bootstrap Gallery" />
+		<link rel="canonical" href="https://www.bootstrap.gallery/">
+		<meta property="og:url" content="https://www.bootstrap.gallery">
+		<meta property="og:title" content="Admin Templates - Dashboard Templates | Bootstrap Gallery">
+		<meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+		<meta property="og:type" content="Website">
+		<meta property="og:site_name" content="Bootstrap Gallery">
+		<link rel="shortcut icon" href="img/favicon.svg" />
+
+		<!-- Title -->
+		<title>Bootstrap Admin Dashboard - Data Tables</title>
+
+
+		<!-- *************
+			************ Common Css Files *************
+		************ -->
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Icomoon Font Icons css -->
+		<link rel="stylesheet" href="fonts/style.css">
+
+		<!-- Main css -->
+		<link rel="stylesheet" href="css/main.min.css">
+
+
+		<!-- *************
+			************ Vendor Css Files *************
+		************ -->
+		<!-- DateRange css -->
+		<link rel="stylesheet" href="vendor/daterange/daterange.css" />
+
+		<!-- Data Tables -->
+		<link rel="stylesheet" href="vendor/datatables/dataTables.bs4.css" />
+		<link rel="stylesheet" href="vendor/datatables/dataTables.bs4-custom.css" />
+		<link href="vendor/datatables/buttons.bs.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	</head>
+
+	<body>
+
+		<!-- Page wrapper start -->
+		<div class="page-wrapper">
+
+			<!-- Sidebar wrapper start -->
+			<nav id="sidebar" class="sidebar-wrapper">
+				<!-- Sidebar brand start  -->
+				<div class="sidebar-brand">
+					<a href="index.html" class="logo">
+						<img src="img/logo.svg" alt="Bootstrap Admin Dashboard" />
+					</a>
+					<a href="index.html" class="logo-sm">
+						<img src="img/logo-sm.svg" alt="Bootstrap Admin Dashboard" />
+					</a>
+				</div>
+				<!-- Sidebar brand end  -->
+
+				<!-- Sidebar content start -->
+				<div class="sidebar-content">
+
+					<!-- sidebar menu start -->
+					<div class="sidebar-menu">
+						<ul>
+							<li class="header-menu">General</li>
+							<li>
+								<a href="index.html">
+									<i class="icon-devices_other"></i>
+									<span class="menu-text">Admin Dashboard</span>
+								</a>
+							</li>
+							<li>
+								<a href="contact4.html">
+									<i class="icon-message-circle"></i>
+									<span class="menu-text">Chat App</span>
+								</a>
+							</li>
+							<li>
+								<a href="contact4.html">
+									<i class="icon-devices_other"></i>
+									<span class="menu-text">Contact</span>
+								</a>
+							</li>
+							<li>
+								<a href="setting.html">
+									<i class="icon-cog"></i>
+									<span class="menu-text">Setting</span>
+								</a>
+							</li>
+							<li>
+								<a href="category.html">
+									<i class="icon-sound-mix"></i>
+									<span class="menu-text">Category</span>
+								</a>
+							</li>
+							<li>
+								<a href="page.html">
+									<i class="icon-assignment"></i>
+									<span class="menu-text">Page</span>
+								</a>
+							</li>
+							<li>
+								<a href="menu.html">
+									<i class="icon-dehaze"></i>
+									<span class="menu-text">Menu</span>
+								</a>
+							</li>
+							<li class="header-menu">Extra</li>
+							<li class="sidebar-dropdown">
+								<a href="#">
+									<i class="icon-airplay"></i>
+									<span class="menu-text">Login</span>
+								</a>
+								<div class="sidebar-submenu">
+									<ul>
+										<li>
+											<a href="login.html">Login</a>
+										</li>
+										<li>
+											<a href="signup.html">Signup</a>
+										</li>
+										<li>
+											<a href="forgot-pwd.html">Forgot Password</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- sidebar menu end -->
+
+				</div>
+				<!-- Sidebar content end -->
+			</nav>
+			<!-- Sidebar wrapper end -->
+
+			<!-- Page content start  -->
+			<div class="page-content">
+
+				<!-- Header start -->
+				<header class="header">
+					<div class="toggle-btns">
+						<a id="toggle-sidebar" href="#">
+							<i class="icon-list"></i>
+						</a>
+						<a id="pin-sidebar" href="#">
+							<i class="icon-list"></i>
+						</a>
+					</div>
+					<div class="header-items">
+						<!-- Custom search start -->
+						<div class="custom-search">
+							<input type="text" class="search-query" placeholder="Search here ...">
+							<i class="icon-search1"></i>
+						</div>
+						<!-- Custom search end -->
+
+						<!-- Header actions start -->
+						<ul class="header-actions">
+							<li class="dropdown">
+								<a href="#" id="notifications" data-toggle="dropdown" aria-haspopup="true">
+									<i class="icon-box"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right lrg" aria-labelledby="notifications">
+									<div class="dropdown-menu-header">
+										Tasks (05)
+									</div>
+									<ul class="header-tasks">
+										<li>
+											<p>#48 - Dashboard UI<span>90%</span></p>
+											<div class="progress">
+												<div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+													aria-valuemax="100" style="width: 90%">
+													<span class="sr-only">90% Complete (success)</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<p>#95 - Alignment Fix<span>60%</span></p>
+											<div class="progress">
+												<div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+													aria-valuemax="100" style="width: 60%">
+													<span class="sr-only">60% Complete (success)</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<p>#7 - Broken Button<span>40%</span></p>
+											<div class="progress">
+												<div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+													aria-valuemax="100" style="width: 40%">
+													<span class="sr-only">40% Complete (success)</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="dropdown">
+								<a href="#" id="notifications" data-toggle="dropdown" aria-haspopup="true">
+									<i class="icon-bell"></i>
+									<span class="count-label">8</span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right lrg" aria-labelledby="notifications">
+									<div class="dropdown-menu-header">
+										Notifications (40)
+									</div>
+									<ul class="header-notifications">
+										<li>
+											<a href="#">
+												<div class="user-img away">
+													<img src="img/user10.png" alt="Bootstrap Admin Panel">
+												</div>
+												<div class="details">
+													<div class="user-title">Abbott</div>
+													<div class="noti-details">Membership has been ended.</div>
+													<div class="noti-date">Today, 07:30 pm</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div class="user-img busy">
+													<img src="img/user10.png" alt="Admin Panel">
+												</div>
+												<div class="details">
+													<div class="user-title">Braxten</div>
+													<div class="noti-details">Approved new design.</div>
+													<div class="noti-date">Today, 12:00 am</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div class="user-img online">
+													<img src="img/user6.png" alt="Admin Template">
+												</div>
+												<div class="details">
+													<div class="user-title">Larkyn</div>
+													<div class="noti-details">Check out every table in detail.</div>
+													<div class="noti-date">Today, 04:00 pm</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="dropdown">
+								<a href="#" id="userSettings" class="user-settings" data-toggle="dropdown" aria-haspopup="true">
+									<span class="user-name">Zyan Ferris</span>
+									<span class="avatar">ZF<span class="status busy"></span></span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userSettings">
+									<div class="header-profile-actions">
+										<div class="header-user-profile">
+											<div class="header-user">
+												<img src="img/user.png" alt="Admin Template">
+											</div>
+											<h5>Zyan Ferris</h5>
+											<p>Admin</p>
+										</div>
+										<a href="user-profile.html"><i class="icon-user1"></i> My Profile</a>
+										<a href="account-settings.html"><i class="icon-settings1"></i> Account Settings</a>
+										<a href="login.html"><i class="icon-log-out1"></i> Sign Out</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<!-- Header actions end -->
+					</div>
+				</header>
+				<!-- Header end -->
+
+				<!-- Page header start -->
+				<div class="page-header">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">Home</li>
+						<li class="breadcrumb-item active">Category</li>
+					</ol>
+
+					<ul class="app-actions">
+						<li>
+							<a href="#" id="reportrange">
+								<span class="range-text"></span>
+								<i class="icon-chevron-down"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Print">
+								<i class="icon-print"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download CSV">
+								<i class="icon-cloud_download"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Page header end -->
+
+				<!-- Main container start -->
+				<div class="main-container">
+
+					<!-- Row start -->
+					<div class="row gutters">
+						<div class="col-sm-12">
+							<div class="table-container">
+								<div class="t-header">View Category</div>
+								<div class="modal fade" id="addNewDocument" tabindex="-1" role="dialog"
+								aria-labelledby="addNewDocumentLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="addNewDocumentLabel">Add Category</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<form class="row gutters">
+												<div class="col-sm-6 col-12">
+													<div class="form-group">
+														<label for="docTitle">Category Name</label>
+														<input type="text" class="form-control" id="docTitle" placeholder="Task Title">
+													</div>
+												</div>
+												<div class="col-sm-6 col-12">
+													<div class="form-group">
+														<label for="dovType">Category Stug</label>
+														<input type="text" class="form-control" id="dovType" placeholder="Task Title">
+													</div>
+												</div>
+												<div class="col-sm-6 col-12">
+													<div class="form-group">
+														<label for="dovType">Status</label>
+														<div class="form-group">
+															<!-- Radios example -->
+															<div class="custom-control custom-radio custom-control-inline">
+																<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+																<label class="custom-control-label" for="customRadioInline1">Yes</label>
+															</div>
+															<div class="custom-control custom-radio custom-control-inline">
+																<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+																<label class="custom-control-label" for="customRadioInline2">No</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-12">
+													<div class="form-group">
+														<label for="addedDate">Created On</label>
+														<div class="custom-date-input">
+															<input type="text" name="" class="form-control datepicker" id="addedDate"
+																placeholder="10/10/2023">
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12">
+													<div class="form-group mb-0">
+														<label for="docDetails">Document Details</label>
+														<textarea class="form-control" id="docDetails"></textarea>
+													</div>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer custom">
+											<div class="left-side">
+												<button type="button" class="btn btn-link danger btn-block"
+													data-dismiss="modal">Cancel</button>
+											</div>
+											<div class="divider"></div>
+											<div class="right-side">
+												<button type="button" class="btn btn-link success btn-block">Add</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
+								<div class="documents-header">
+									<h4> </h4>
+									<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addNewDocument">Add
+										Category</button>
+								</div>
+								<div class="table-responsive">
+									<table id="copy-print-csv" class="table custom-table">
+										<thead>
+											<tr>
+												<th scope="col">SL</th>
+												<th scope="col">Category Name</th>
+												<th scope="col">Category Stug</th>
+												<th scope="col">Status</th>
+												<th scope="col" >Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>System Architect</td>
+												<td>Edinburgh</td>
+												<td>Active</td>
+												<td>
+													<a href="#editcategoryModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+													<a href="#deletecategoryModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+												</td>
+											</tr>
+											
+											
+										</tbody>
+									</table>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- Edit Modal HTML -->
+					<div id="editcategoryModal" class="modal fade">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<form>
+									<div class="modal-header">						
+										<h4 class="modal-title">Edit Category</h4>
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									</div>
+									<div class="modal-body">					
+										<div class="form-group">
+											<label>Gategory Name</label>
+											<input type="text" class="form-control" required>
+										</div>
+										<div class="form-group">
+											<label>Category Stug</label>
+											<input type="text" class="form-control" required>
+										</div>
+										<div class="form-group">
+											<label>Status</label>
+											<div class="form-group">
+												<!-- Radios example -->
+												<div class="custom-control custom-radio custom-control-inline">
+													<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+													<label class="custom-control-label" for="customRadioInline1">Yes</label>
+												</div>
+												<div class="custom-control custom-radio custom-control-inline">
+													<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+													<label class="custom-control-label" for="customRadioInline2">No</label>
+												</div>
+											</div>
+										</div>				
+									</div>
+									<div class="modal-footer">
+										<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+										<input type="submit" class="btn btn-info" value="Save">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- Delete Modal HTML -->
+					<div id="deletecategoryModal" class="modal fade">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<form>
+									<div class="modal-header">						
+										<h4 class="modal-title">Delete Category</h4>
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									</div>
+									<div class="modal-body">					
+										<p>Are you sure you want to delete these Records?</p>
+										<p class="text-warning"><small>This action cannot be undone.</small></p>
+									</div>
+									<div class="modal-footer">
+										<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+										<input type="submit" class="btn btn-danger" value="Delete">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+				</div>
+				<!-- Main container end -->
+
+			</div>
+			<!-- Page content end -->
+
+		</div>
+		<!-- Page wrapper end -->
+
+		<!--**************************
+			**************************
+				**************************
+							Required JavaScript Files
+				**************************
+			**************************
+		**************************-->
+		<!-- Required jQuery first, then Bootstrap Bundle JS -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/moment.js"></script>
+
+
+		<!-- *************
+			************ Vendor Js Files *************
+		************* -->
+		<!-- Slimscroll JS -->
+		<script src="vendor/slimscroll/slimscroll.min.js"></script>
+		<script src="vendor/slimscroll/custom-scrollbar.js"></script>
+
+		<!-- Daterange -->
+		<script src="vendor/daterange/daterange.js"></script>
+		<script src="vendor/daterange/custom-daterange.js"></script>
+
+		<!-- Data Tables -->
+		<script src="vendor/datatables/dataTables.min.js"></script>
+		<script src="vendor/datatables/dataTables.bootstrap.min.js"></script>
+
+		<!-- Custom Data tables -->
+		<script src="vendor/datatables/custom/custom-datatables.js"></script>
+		<script src="vendor/datatables/custom/fixedHeader.js"></script>
+
+		<!-- Download / CSV / Copy / Print -->
+		<script src="vendor/datatables/buttons.min.js"></script>
+		<script src="vendor/datatables/jszip.min.js"></script>
+		<script src="vendor/datatables/pdfmake.min.js"></script>
+		<script src="vendor/datatables/vfs_fonts.js"></script>
+		<script src="vendor/datatables/html5.min.js"></script>
+		<script src="vendor/datatables/buttons.print.min.js"></script>
+
+
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>
